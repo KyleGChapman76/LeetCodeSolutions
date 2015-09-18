@@ -1,5 +1,9 @@
 import java.util.HashSet;
 
+//simple solution
+//not really much to explain
+//i like sets a lot
+
 public class ContainsDuplicate
 {
 	public boolean containsDuplicate(int[] nums)

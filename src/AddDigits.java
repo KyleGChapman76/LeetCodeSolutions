@@ -1,3 +1,5 @@
+//shamelessly stolen from a solution posted in the leetcode discussion for this problem
+//no credit for solving it, but useful for me to write it out nonetheless
 
 public class AddDigits
 {

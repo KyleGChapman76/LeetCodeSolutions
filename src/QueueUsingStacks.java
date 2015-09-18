@@ -1,6 +1,5 @@
 import java.util.Stack;
 
-
 public class QueueUsingStacks
 {
 	Stack<Integer> stack = new Stack<Integer>();
