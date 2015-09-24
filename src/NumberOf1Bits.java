@@ -1,3 +1,7 @@
+//simple bitshift solution
+//had the basic idea from the get go
+//but had to look up some finer points
+//especially about the difference between >>> and >> in java
 
 public class NumberOf1Bits
 {
