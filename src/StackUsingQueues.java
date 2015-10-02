@@ -1,12 +1,12 @@
-//https://leetcode.com/problems/implement-queue-using-stacks/
-//acts as a queue by keeping everything in the correct queue order on top of the stack
-//flip, insert, then flip again whenever inserting something in to keep that order
+//https://leetcode.com/problems/implement-stack-using-queues/
+//poor performance on this solution
+//will likely come back and redo this one
 
 import java.util.Stack;
 
-public class QueueUsingStacks
-{
-	Stack<Integer> stack = new Stack<Integer>();
+public class StackUsingQueues {
+    
+    Stack<Integer> stack = new Stack<Integer>();
     
     // Push element x to the back of queue.
     public void push(int x)

@@ -1,6 +1,10 @@
+//https://leetcode.com/problems/invert-binary-tree/
+//a simple solution
+//using breadth first search, every time you reach a new node
+//just swap the left and right children of the node
+
 import java.util.LinkedList;
 import java.util.Queue;
-
 
 public class InvertTree {
 	

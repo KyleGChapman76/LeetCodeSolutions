@@ -1,8 +1,7 @@
-//a pretty simple solution
-//doesn't use any extra memory
+//https://leetcode.com/problems/move-zeroes/
+//a pretty simple in-place solution
 //but i'm not experienced enough to calculate the complexity of it
-//and leetcode doesn't have enough submissions to calculate
-//how well mine performs in comparison to others
+//and leetcode doesn't have enough submissions to calculate how well mine performs in comparison to others
 
 public class MoveZeroes
 {

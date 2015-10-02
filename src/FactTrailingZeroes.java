@@ -1,10 +1,11 @@
+//https://leetcode.com/problems/factorial-trailing-zeroes/
 //i'm really proud of this solution
 //at first i thought that this would be very computationally intensive
 //but i was able to deduce the correct pattern by looking at lists of factorial numbers
 
 public class FactTrailingZeroes
 {
-	//gains an extra tailing zero every 5
+	//gains an extra trailing zero every 5
 	//and another extra every 25
 	//and so on
 	public int trailingZeroes(int n)

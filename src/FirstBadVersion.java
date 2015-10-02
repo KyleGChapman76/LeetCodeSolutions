@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/first-bad-version/
 //i don't know how i like this solution
 //on the one hand the algorithm i think is very nice
 //however the reliance on using longs may not be the best way of handling overflow

@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/excel-sheet-column-number/
 //this is one of my favorite solutions that i developed because
 //i pretty much instantly knew what to do
 //it also looks good and runs great
@@ -14,6 +15,7 @@ public class ExcelSheetColumnNumber
             cumulative += (c - 64) * (int)Math.pow(26,i);
             //c-64 converts c to an ascii value then subtracts 64 from it, giving
             //A = 1, B = 2, and so on
+            //then you multiply that by 10 to the power of the current index
         }
         
         return cumulative;

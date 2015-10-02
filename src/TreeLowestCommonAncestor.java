@@ -1,25 +1,16 @@
+//https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
 import java.util.HashSet;
 import java.util.Stack;
 
-public class TreeLeastCommonAncestor {
-	
-	public static void main (String[] args)
-	{
-		TreeNode node1 = new TreeNode(2);
-		TreeNode node2 = new TreeNode(1);
-		
-		node1.left = node2;
-		
-		System.out.println();
-		System.out.println("Final answer " + lowestCommonAncestor(node1, node1, node2).val);
-	}
+public class TreeLowestCommonAncestor {
 	
 	public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
     {
 		if (root == p || root == q || root == null)
         	return root;
 		//if the root is null then the entire tree is null, so return null
-		//if the root is either p or q then 
+		//if the root is either p or q then the root is the lcm, since going down the tree
         
         TreeNode left = root.left;
         TreeNode right = root.right;

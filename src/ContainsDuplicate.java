@@ -1,8 +1,9 @@
-import java.util.HashSet;
-
+//https://leetcode.com/problems/contains-duplicate/
 //simple solution
 //not really much to explain
 //i like sets a lot
+
+import java.util.HashSet;
 
 public class ContainsDuplicate
 {

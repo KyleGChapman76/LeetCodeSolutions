@@ -1,3 +1,8 @@
+//https://leetcode.com/problems/maximum-depth-of-binary-tree/
+//finds the max depth of a binary tree
+//does this by comparing the size of the depth first search stack
+//at every node with the discovered max depth
+
 import java.util.HashSet;
 import java.util.Stack;
 
